@@ -1,0 +1,23 @@
+{
+  "name": "jquery-deferred-images",
+  "version": "1.0.0",
+  "homepage": "https://github.com/danielhusar/jquery-deferred-images",
+  "authors": [
+    "Daniel Husar <dano.husar@gmail.com>"
+  ],
+  "description": "jQuery deferred images - callbacks when all images are loaded",
+  "main": "./dest/jquery-deferred-images",
+  "keywords": [
+    "jquery",
+    "deferred",
+    "images"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

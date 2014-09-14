@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jQuery deferred images</title>
+</head>
+
+<body>
+
+  <img src="fixture.png" alt="fixture" class="load">
+  <img src="fixture2.png" alt="fixture" class="error">
+
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="dest/jQuery.deferredImages.js"></script>
+  <script>
+    $('.load').deferredImages({
+      done: function () {
+        console.log('existing images loaded');
+      },
+      fail: function () {
+        console.log('shouldnt be called');
+      }
+    });
+    $('.error').deferredImages({
+      done: function () {
+        console.log('shouldnt be called');
+      },
+      fail: function () {
+        console.log('non existing images fail');
+      }
+    });
+  </script>
+</body>
+</html>
