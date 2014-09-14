@@ -1,4 +1,4 @@
-# jQuery mobile menu [![Build Status](https://travis-ci.org/danielhusar/jquery-deferred-images.svg)](https://travis-ci.org/danielhusar/jquery-deferred-images)
+# jQuery deferred images [![Build Status](https://travis-ci.org/danielhusar/jquery-deferred-images.svg)](https://travis-ci.org/danielhusar/jquery-deferred-images)
 
 Execute callbacks when selected images has been loaded.
 (Please note that this might not work crossbrowser, see: http://api.jquery.com/load-event/)
